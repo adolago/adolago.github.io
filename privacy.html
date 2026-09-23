@@ -18,6 +18,7 @@
 <ul>
 <li><strong>Account identity:</strong> account email and authentication information needed to connect the intended account.</li>
 <li><strong>Gmail:</strong> message headers, labels, snippets, message content, drafts and attachments when needed for the requested task. The assistant can search and summarize mail, prepare drafts, send messages, and change labels or archive mail.</li>
+<li><strong>Google Chat (work account):</strong> space metadata and messages needed to identify requests, track follow-ups and prepare work. The assistant can read spaces and messages and send messages when Artur instructs it. Incoming messages do not independently authorize replies. Chat permissions do not include deleting messages or administering spaces.</li>
 <li><strong>Calendar:</strong> event details, times, descriptions, locations and attendees needed to read, create, update or delete events.</li>
 <li><strong>Drive, Docs and Sheets:</strong> file metadata and relevant document, spreadsheet or other file contents needed to find, read, create, organize or edit the requested material.</li>
 <li><strong>Contacts:</strong> names, email addresses and other relevant contact details used to resolve recipients. Contacts access is read-only.</li>
@@ -26,6 +27,7 @@
 <h2>Purpose and automated actions</h2>
 <p>Data is used to provide the assistant features described above. The daily inbox routine uses message metadata and snippets to make conservative classifications. Its safeguards retain protected or uncertain messages in the inbox, label priority items, and archive qualifying promotions or newsletters. It records its actions and prior label state so its changes can be undone. Classification can be mistaken; Artur can review and correct it.</p>
 <p>Artur has authorized the assistant to send mail, archive mail, create or change events, and edit documents in response to his requests and defined routines without repeated per-action confirmation. Ambiguous account choices or recipients require clarification. These permissions do not authorize unrelated actions.</p>
+<p>Defined proactive routines may check calendars, mail, work Chat and saved commitments, record pending actions, prepare meetings and deliver reminders or reviews privately to Artur, including overnight. Checks are periodic and bounded; they do not guarantee immediate detection or complete historical coverage. Personal commitments remain separate from work records and mixed assistant history.</p>
 <h2>AI processing and disclosure</h2>
 <p>Relevant Google data and task instructions may be sent to the configured AI service to generate summaries, drafts and proposed actions. The current primary AI service is <strong>OpenAI</strong>. Only processors and account settings compatible with the commitments in this policy may be used for Google data.</p>
 <p><strong>Hermes Devbox does not use Google Workspace API data to develop, improve or train non-personalized or generalized artificial-intelligence or machine-learning models. It does not transfer Google data for those purposes.</strong></p>
